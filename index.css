@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    background-image: url(./bg.png);
+    width: 1519px;
+    height: 790px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    /* display: flex; */
+}
+/* .logo{
+    height:200px;
+    width:400px;
+} */
+.img1{
+    margin-top: 30px;
+    margin-left: 60px;
+    height:70px;
+    width: 200px;
+}
+.btn1, .btn2{
+    height:38px;
+    
+    width: 80px;
+    
+}
+.btn2{
+    
+    margin-left:40px;
+    background-color: red;
+    color:#ffff;
+    border-radius: 5px;
+    border:none;
+    font-size: medium;
+    cursor: pointer;
+
+}
+.btn1{
+    margin-left:990px;   
+    background-color: black; 
+    color:#ffff;
+    border-color: #ffff;
+}
+
+.top_section{
+    height:100px;
+    /* background-color: aqua; */
+    width: 1519px;
+}
+.middle-section{
+    height:400px;
+    width:1519px;
+    color:#ffff;
+    text-align: center;
+    /* background-color: blue; */
+    padding-top: 170px;
+    font-weight: bolder;
+    
+}
+.middle-section h1{
+    font-size: 350%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.middle-section h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.middle-section h3{
+    margin-top: 30px;
+}
+.option{
+    background-color: black;
+    color:#ffff;
+    border:none;
+    cursor:pointer;
+}
+.email{
+    height:65px;
+    width:500px;
+    font-size: larger;
+    color: rgb(174, 174, 174);
+    margin-left: 380px;
+    margin-top: 20px;
+    
+}
+.start{
+    text-align: center;
+    color: #ffff;
+    background-color: red;
+    height:68px;
+    width:250px ;
+    margin-top: 20px;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 120%;
+    
+    
+}
+.signin{
+    display: flex;
+}
+.ab{
+    padding-bottom: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.hr1{
+    background-color: rgb(60, 59, 59);
+    height: 7px;
+    border:none;
+}
